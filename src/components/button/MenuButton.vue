@@ -22,7 +22,7 @@
     width: 360px;
     height: 70px;
     border: 3px solid #000000;
-    background-image: url(../image/cobblestone.png);
+    /* background-image: url(../image/cobblestone.png); */
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow: -3px -3px 0px 0px rgba(0, 0, 0, 0.70) inset;
@@ -33,7 +33,7 @@
 }
 
 #primary-button-border:hover {
-    background-image: url(../image/cobblestone-dark.png);
+    /* background-image: url(../image/cobblestone-dark.png); */
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow: 2px 2px -0px 0px rgba(0, 0, 0, 0.70) inset;
