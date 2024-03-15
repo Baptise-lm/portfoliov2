@@ -12,26 +12,18 @@ import ContactButton from '../components/button/ContactButton.vue'
             <div id="white-bg">
                 <img src="../components/image/paranthese.png" alt="paranthese">
                 <div id="text-box">
-                    <p id="title-font">Titre</p>
-                    <p id="text-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                        mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                        mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                        mollit anim id est laborum.</p>
+                    <p id="title-font">Developpeur mais pas que ...</p>
+                    <p id="text-font">Après un BAC général spécialisé en Maths et Sciences de l'informatique, n'étant pas sur de quel métier je voulais faire, j'ai commencé une license informatique.
+                        Me rendant compte que cela ne me correspondait pas, j'ai terminé mon année et j'ai cherché une école plus professionalisante. MyDigitalSchool correspondait totalement à mes attentes
+                        et j'ai donc commencé mon cursus là bas. Je ne savais pas vers quoi me diriger l'année dernière entre le développement web et le webdesign.
+                        <br><br>
+                        Ma première année au sein de l'école et mon stage de fin d'année dans le design permis d'y voir plus clair. Je m'oriente donc vers le Développement Web.
+                        <br><br>
+                        Cependant, ma formation me permet d'avoir un panel de compétence très large dans le domaine du digital. Maquettage, Intégration de site web, Montage photo et vidéo, Communication réseaux
+                        , Marketing Digital ...
+                        <br><br>
+                        N'hésitez pas à regarder mes projets pour en voir plus sur mes capacités et à me contacter pour plus d'information si mon profil vous intéresse.
+                    </p>
                 </div>
             </div>
         </div>
@@ -82,7 +74,7 @@ import ContactButton from '../components/button/ContactButton.vue'
     width: 100%;
     padding-left: 15px;
     padding-top: 10px;
-    gap: 25px;
+    gap: 40px;
 }
 #title-font {
     text-align: center;

@@ -12,16 +12,18 @@ function getDetailProject(id){
 </script>
 
 <template>
-    <div id="backhome-postion"><Backhome name="Retour a l'accueil"></Backhome></div>
-    <div id="contact-postion"><ContactButton></ContactButton></div>
-    <div id="block">
-        <img id="title" src="../components/image/projet-title.png" alt="">
-        <div id="grey-block">
-            <div id="scroll">
-                <ProjectBlock v-for="i in Data.projets" :id="i.id" :name="i.name" :img="i.image.image1" :date="i.date" :description="i.description" @detail-project="getDetailProject"></ProjectBlock>
+    <body style="background-image: url(../assets/backgrounds/cobblestone.png);">
+        <div id="backhome-postion"><Backhome name="Retour a l'accueil"></Backhome></div>
+        <div id="contact-postion"><ContactButton></ContactButton></div>
+        <div id="block">
+            <img id="title" src="../components/image/projet-title.png" alt="">
+            <div id="grey-block">
+                <div id="scroll">
+                    <ProjectBlock v-for="i in Data.projets" :id="i.id" :name="i.name" :img="i.image1" :date="i.date" :description="i.description" @detail-project="getDetailProject"></ProjectBlock>
+                </div>
             </div>
         </div>
-    </div>
+    </body>
 </template>
 
 <style scoped>

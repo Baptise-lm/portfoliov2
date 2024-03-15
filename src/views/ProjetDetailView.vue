@@ -23,21 +23,17 @@ console.log(IdContent)
     <div id="backhome-postion"><Back name="Retour au projet"></Back></div>
     <div id="contact-postion"><ContactButton></ContactButton></div>
     <div id="page-align">
-        <img src="../components/image/doom-title.png" alt="title">
+        <img :src="IdContent.titleimg" alt="title">
         <div id="presentation">
             <p id="title"> Présentation :</p>
-            <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Eu nisl nunc mi ipsum faucibus vitae aliquet 
-                    nec ullamcorper. Nibh venenatis cras sed felis eget velit 
-                    aliquet. Felis eget velit aliquet sagittis</p>
+            <p id="text">{{ IdContent.desc }}</p>
         </div>
         <div id="image-border">
-            <img class="image" src="src\components\image-projet\doompage1.png" alt="dossier page 1">
-            <img class="image" src="src\components\image-projet\doompage2.png" alt="dossier page 2">
-            <img class="image" src="src\components\image-projet\doompage3.png" alt="dossier page 3">
+            <img class="image" :src="IdContent.img1" alt="dossier page 1">
+            <img class="image" :src="IdContent.img2" alt="dossier page 2">
+            <img class="image" :src="IdContent.img3" alt="dossier page 3">
         </div>
-        <Download name="LIEN VERS LE PROJET"></Download>
+        <!-- <Download name="LIEN VERS LE PROJET" :href="IdContent.link"></Download> -->
     </div>
 
 </template>

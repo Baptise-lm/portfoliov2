@@ -29,7 +29,7 @@
     <div @click="$emit('DetailProject', id)" id="all-block" >
         <button id= "block">
             <div>
-                <img :src="img">
+                <img class="mini-img" :src="img">
             </div>
             <div id="text-align">
                 <div id="first-line">
@@ -83,6 +83,11 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
+}
+
+.mini-img {
+    max-width: 70px;
+    max-height: 50px;
 }
 
 .download-button {

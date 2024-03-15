@@ -9,77 +9,78 @@ import ContactButton from '../components/button/ContactButton.vue'
 var inventorydata = {
     "card": [
         {
-            "img" : "src/components/image/vuejs.png",
+            "img" : "./src/components/image/vuejs.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/html.png",
+            "img" : "./src/components/image/html.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/css.png",
+            "img" : "./src/components/image/css.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/js.png",
+            "img" : "./src/components/image/js.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/python.png",
+            "img" : "./src/components/image/python.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/elementor.png",
+            "img" : "./src/components/image/elementor.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/figma.png",
+            "img" : "./src/components/image/figma.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/photoshop.png",
+            "img" : "./src/components/image/photoshop.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/illustrator.png",
+            "img" : "./src/components/image/illustrator.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/after.png",
+            "img" : "./src/components/image/after.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/premierpro.png",
+            "img" : "./src/components/image/premierpro.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/office.png",
+            "img" : "./src/components/image/office.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/vide.png",
+            "img" : "./src/components/image/react.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/vide.png",
+            "img" : "./src/components/image/vide.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/vide.png",
+            "img" : "./src/components/image/vide.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/vide.png",
+            "img" : "./src/components/image/vide.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/vide.png",
+            "img" : "./src/components/image/vide.png",
             "hoverdescription" : "",
         },
         {
-            "img" : "src/components/image/vide.png",
+            "img" : "./src/components/image/vide.png",
             "hoverdescription" : "",
         },
+        
     ]
 }
 </script>
@@ -95,7 +96,7 @@ var inventorydata = {
                 <div id="character-align">
                     <Blackbg></Blackbg>
                     <div id="about-me">
-                        <Textbox description="Petite description à mettre"></Textbox>
+                        <Textbox description="Durant ces deux années de Bachelor, j'ai acquis au travers de divers projets plusieurs compétences dans le domaine du web."></Textbox>
                         <div id="learn-more-block">
                             <RouterLink to="/apropos"><Learnmore></Learnmore></RouterLink>
                             <p id="learn-more-font">En savoir plus</p>

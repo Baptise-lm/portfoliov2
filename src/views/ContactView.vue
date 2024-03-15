@@ -28,10 +28,10 @@ import Backhome from '../components/button/Backhome.vue'
         </div>
         <div id="align-button">
             <button class="follow-button">
-                <img src="../components/image/linkedin.png" alt="">
+                <a href="https://www.linkedin.com/in/baptiste-lemoine-migaud/"><img src="../components/image/linkedin.png" alt=""></a>
             </button>
             <button class="follow-button">
-                <img src="../components/image/gmail.png" alt="">
+                <a href="mailto:baptistelmng44@gmail.com"><img src="../components/image/gmail.png" alt=""></a>
             </button>
         </div>
     </div>
